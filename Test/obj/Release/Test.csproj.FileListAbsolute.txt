@@ -1,0 +1,8 @@
+d:\Code\Misc\XmlToPox\Test\bin\Release\Test.exe.config
+d:\Code\Misc\XmlToPox\Test\bin\Release\Test.exe
+d:\Code\Misc\XmlToPox\Test\bin\Release\Test.pdb
+d:\Code\Misc\XmlToPox\Test\bin\Release\XmlToPox.dll
+d:\Code\Misc\XmlToPox\Test\bin\Release\XmlToPox.pdb
+d:\Code\Misc\XmlToPox\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
+d:\Code\Misc\XmlToPox\Test\obj\Release\Test.exe
+d:\Code\Misc\XmlToPox\Test\obj\Release\Test.pdb
