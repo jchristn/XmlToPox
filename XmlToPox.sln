@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlToPox", "XmlToPox\XmlToPox.csproj", "{F30EE8DF-9CCB-4B17-8E6D-F4FBB2BB9C75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "XmlToPox\Tools.csproj", "{F30EE8DF-9CCB-4B17-8E6D-F4FBB2BB9C75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{AFCB1DF0-81C8-40D2-B8F4-D4625ABFA3C0}"
 EndProject

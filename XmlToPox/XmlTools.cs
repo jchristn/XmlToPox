@@ -11,7 +11,7 @@ using System.Xml.XPath;
 
 namespace XmlToPox
 {
-    public class Tools
+    public class XmlTools
     {
         #region Public-Static-Methods
 

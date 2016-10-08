@@ -1,0 +1,5 @@
+d:\code\misc\XmlToPox\XmlToPox\bin\Release\XmlToPox.dll
+d:\code\misc\XmlToPox\XmlToPox\bin\Release\XmlToPox.pdb
+d:\code\misc\XmlToPox\XmlToPox\obj\Release\Tools.csprojResolveAssemblyReference.cache
+d:\code\misc\XmlToPox\XmlToPox\obj\Release\XmlToPox.dll
+d:\code\misc\XmlToPox\XmlToPox\obj\Release\XmlToPox.pdb

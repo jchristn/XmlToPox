@@ -17,7 +17,7 @@ namespace Test
                 Console.Write("XML: ");
                 string userInput = ReadLine();
                 if (String.IsNullOrEmpty(userInput)) continue;
-                Console.WriteLine(Tools.Convert(userInput));
+                Console.WriteLine(XmlTools.Convert(userInput));
             }
         }
 
