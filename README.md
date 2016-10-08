@@ -2,7 +2,7 @@
 
 [![][nuget-img]][nuget]
 
-[nuget]:     https://www.nuget.org/packages/XmlToPox.dll
+[nuget]:     https://www.nuget.org/packages/XmlToPox/1.0.0
 [nuget-img]: https://badge.fury.io/nu/Object.svg
 
 Convert XML to Plain Old XML and Query using XPath
