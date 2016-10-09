@@ -20,7 +20,8 @@ XmlToPox is a class library that converts XML to plain old XML and provides an i
 ```
 using XmlToPox;
 
-Console.WriteLine(Tools.Convert("Some ridiculous XML document goes here");
+string pox = XmlTools.Convert("Some ridiculous XML document goes here");
+Console.WriteLine(pox);
 ```
 
 ## version history
