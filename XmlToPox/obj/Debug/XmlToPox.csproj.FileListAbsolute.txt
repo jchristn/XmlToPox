@@ -1,5 +1,0 @@
-d:\code\misc\XmlToPox\XmlToPox\bin\Debug\XmlToPox.dll
-d:\code\misc\XmlToPox\XmlToPox\bin\Debug\XmlToPox.pdb
-d:\code\misc\XmlToPox\XmlToPox\obj\Debug\XmlToPox.csprojResolveAssemblyReference.cache
-d:\code\misc\XmlToPox\XmlToPox\obj\Debug\XmlToPox.dll
-d:\code\misc\XmlToPox\XmlToPox\obj\Debug\XmlToPox.pdb

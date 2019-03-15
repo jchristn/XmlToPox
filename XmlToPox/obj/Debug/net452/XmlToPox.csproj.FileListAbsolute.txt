@@ -1,0 +1,8 @@
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\net452\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\net452\XmlToPox.pdb
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net452\XmlToPox.csprojAssemblyReference.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net452\XmlToPox.csproj.CoreCompileInputs.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net452\XmlToPox.AssemblyInfoInputs.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net452\XmlToPox.AssemblyInfo.cs
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net452\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net452\XmlToPox.pdb

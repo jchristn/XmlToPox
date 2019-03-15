@@ -1,0 +1,10 @@
+C:\Code\Misc\XmlToPox\TestNetFramework\bin\Debug\Test.exe.config
+C:\Code\Misc\XmlToPox\TestNetFramework\bin\Debug\Test.exe
+C:\Code\Misc\XmlToPox\TestNetFramework\bin\Debug\Test.pdb
+C:\Code\Misc\XmlToPox\TestNetFramework\bin\Debug\XmlToPox.dll
+C:\Code\Misc\XmlToPox\TestNetFramework\bin\Debug\XmlToPox.pdb
+C:\Code\Misc\XmlToPox\TestNetFramework\obj\Debug\TestNetFramework.csprojAssemblyReference.cache
+C:\Code\Misc\XmlToPox\TestNetFramework\obj\Debug\TestNetFramework.csproj.CoreCompileInputs.cache
+C:\Code\Misc\XmlToPox\TestNetFramework\obj\Debug\TestNetFramework.csproj.CopyComplete
+C:\Code\Misc\XmlToPox\TestNetFramework\obj\Debug\Test.exe
+C:\Code\Misc\XmlToPox\TestNetFramework\obj\Debug\Test.pdb

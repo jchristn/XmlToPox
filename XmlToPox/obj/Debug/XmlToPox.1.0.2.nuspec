@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>XmlToPox</id>
+    <version>1.0.2</version>
+    <authors>Joel Christner</authors>
+    <owners>Joel Christner</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/jchristn/XmlToPox/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/jchristn/xmltopox</projectUrl>
+    <description>Convert XML to plain old XML (POX) and query it using XPath.</description>
+    <releaseNotes>Retarget to .NET Core 2.0 and .NET Framework 4.5.2</releaseNotes>
+    <copyright>(c)2019 Joel Christner</copyright>
+    <tags>xml convert conversion plain xpath query</tags>
+    <repository type="Github" url="https://github.com/jchristn/xmltopox" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\net452\XmlToPox.dll" target="lib\net452\XmlToPox.dll" />
+    <file src="C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\netstandard2.0\XmlToPox.dll" target="lib\netstandard2.0\XmlToPox.dll" />
+  </files>
+</package>

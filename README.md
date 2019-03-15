@@ -7,16 +7,15 @@
 
 Convert XML to Plain Old XML and Query using XPath
 
-## help or feedback
-first things first - do you need help or have feedback?  Contact me at joel at maraudersoftware.com dot com or file an issue here!
+## Help or feedback
 
-## new in v1.0.0
-- first release!
+First things first - do you need help or have feedback?  Contact me at joel dot christner at gmail or file an issue here!
 
-## description
-XmlToPox is a class library that converts XML to plain old XML and provides an interface to query it using XPath.
+## New in v1.0.2
 
-## simple example
+- Retarget to .NET Core 2.0 and .NET Framework 4.5.2
+
+## Simple example
 ```
 using XmlToPox;
 
@@ -24,5 +23,9 @@ string pox = XmlTools.Convert("Some ridiculous XML document goes here");
 Console.WriteLine(pox);
 ```
 
-## version history
-notes from previous versions (starting with v1.0.0) will be moved here.
+## Version history
+
+Notes from previous versions (starting with v1.0.0) will be moved here.
+
+v1.0.x
+- Initial release

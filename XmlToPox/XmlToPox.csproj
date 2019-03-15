@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <Authors>Joel Christner</Authors>
+    <Description>Convert XML to plain old XML (POX) and query it using XPath.</Description>
+    <Copyright>(c)2019 Joel Christner</Copyright>
+    <PackageProjectUrl>https://github.com/jchristn/xmltopox</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jchristn/xmltopox</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageLicenseUrl>https://github.com/jchristn/XmlToPox/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageReleaseNotes>Retarget to .NET Core 2.0 and .NET Framework 4.5.2</PackageReleaseNotes>
+    <PackageTags>xml convert conversion plain xpath query</PackageTags>
+  </PropertyGroup>
+
+</Project>
