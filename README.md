@@ -16,7 +16,7 @@ First things first - do you need help or have feedback?  Contact me at joel dot 
 - Retarget to .NET Core 2.0 and .NET Framework 4.5.2
 
 ## Simple example
-```
+```csharp
 using XmlToPox;
 
 string pox = XmlTools.Convert("Some ridiculous XML document goes here");
