@@ -1,0 +1,9 @@
+C:\code\Misc\XmlToPox\XmlToPox\bin\Release\netcoreapp3.1\XmlToPox.deps.json
+C:\code\Misc\XmlToPox\XmlToPox\bin\Release\netcoreapp3.1\XmlToPox.dll
+C:\code\Misc\XmlToPox\XmlToPox\bin\Release\netcoreapp3.1\XmlToPox.pdb
+C:\code\Misc\XmlToPox\XmlToPox\obj\Release\netcoreapp3.1\XmlToPox.csprojAssemblyReference.cache
+C:\code\Misc\XmlToPox\XmlToPox\obj\Release\netcoreapp3.1\XmlToPox.AssemblyInfoInputs.cache
+C:\code\Misc\XmlToPox\XmlToPox\obj\Release\netcoreapp3.1\XmlToPox.AssemblyInfo.cs
+C:\code\Misc\XmlToPox\XmlToPox\obj\Release\netcoreapp3.1\XmlToPox.csproj.CoreCompileInputs.cache
+C:\code\Misc\XmlToPox\XmlToPox\obj\Release\netcoreapp3.1\XmlToPox.dll
+C:\code\Misc\XmlToPox\XmlToPox\obj\Release\netcoreapp3.1\XmlToPox.pdb

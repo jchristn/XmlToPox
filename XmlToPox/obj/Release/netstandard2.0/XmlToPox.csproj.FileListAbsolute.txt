@@ -6,3 +6,4 @@ C:\Code\Misc\XmlToPox\XmlToPox\obj\Release\netstandard2.0\XmlToPox.AssemblyInfoI
 C:\Code\Misc\XmlToPox\XmlToPox\obj\Release\netstandard2.0\XmlToPox.AssemblyInfo.cs
 C:\Code\Misc\XmlToPox\XmlToPox\obj\Release\netstandard2.0\XmlToPox.dll
 C:\Code\Misc\XmlToPox\XmlToPox\obj\Release\netstandard2.0\XmlToPox.pdb
+C:\code\Misc\XmlToPox\XmlToPox\obj\Release\netstandard2.0\XmlToPox.csprojAssemblyReference.cache

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>XmlToPox</id>
+    <version>1.0.2.1</version>
+    <authors>Joel Christner</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/jchristn/XmlToPox/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/jchristn/xmltopox</projectUrl>
+    <description>Convert XML to plain old XML (POX) and query it using XPath.</description>
+    <releaseNotes>Retarget to .NET Core 2.0 and .NET Framework 4.5.2</releaseNotes>
+    <copyright>(c)2019 Joel Christner</copyright>
+    <tags>xml convert conversion plain xpath query</tags>
+    <repository type="Github" url="https://github.com/jchristn/xmltopox" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETCoreApp3.0" />
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework="net5.0" />
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\code\Misc\XmlToPox\XmlToPox\bin\Release\net452\XmlToPox.dll" target="lib\net452\XmlToPox.dll" />
+    <file src="C:\code\Misc\XmlToPox\XmlToPox\bin\Release\net5.0\XmlToPox.dll" target="lib\net5.0\XmlToPox.dll" />
+    <file src="C:\code\Misc\XmlToPox\XmlToPox\bin\Release\netcoreapp3.0\XmlToPox.dll" target="lib\netcoreapp3.0\XmlToPox.dll" />
+    <file src="C:\code\Misc\XmlToPox\XmlToPox\bin\Release\netcoreapp3.1\XmlToPox.dll" target="lib\netcoreapp3.1\XmlToPox.dll" />
+    <file src="C:\code\Misc\XmlToPox\XmlToPox\bin\Release\netstandard2.0\XmlToPox.dll" target="lib\netstandard2.0\XmlToPox.dll" />
+    <file src="C:\code\Misc\XmlToPox\XmlToPox\bin\Release\netstandard2.1\XmlToPox.dll" target="lib\netstandard2.1\XmlToPox.dll" />
+  </files>
+</package>
