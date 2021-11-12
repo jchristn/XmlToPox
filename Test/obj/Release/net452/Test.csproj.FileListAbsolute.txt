@@ -1,0 +1,15 @@
+C:\Code\Misc\XmlToPox\Test\bin\Release\net452\sample.xml
+C:\Code\Misc\XmlToPox\Test\bin\Release\net452\Test.exe.config
+C:\Code\Misc\XmlToPox\Test\bin\Release\net452\Test.exe
+C:\Code\Misc\XmlToPox\Test\bin\Release\net452\Test.pdb
+C:\Code\Misc\XmlToPox\Test\bin\Release\net452\XmlToPox.dll
+C:\Code\Misc\XmlToPox\Test\bin\Release\net452\XmlToPox.pdb
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.csproj.AssemblyReference.cache
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.csproj.SuggestedBindingRedirects.cache
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.AssemblyInfoInputs.cache
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.AssemblyInfo.cs
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.csproj.CoreCompileInputs.cache
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.csproj.CopyComplete
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.exe
+C:\Code\Misc\XmlToPox\Test\obj\Release\net452\Test.pdb

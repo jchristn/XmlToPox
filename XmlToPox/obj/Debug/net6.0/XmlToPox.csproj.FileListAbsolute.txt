@@ -1,0 +1,12 @@
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\net6.0\XmlToPox.deps.json
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\net6.0\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\net6.0\ref\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\net6.0\XmlToPox.pdb
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\XmlToPox.csproj.AssemblyReference.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\XmlToPox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\XmlToPox.AssemblyInfoInputs.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\XmlToPox.AssemblyInfo.cs
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\XmlToPox.csproj.CoreCompileInputs.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\ref\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\net6.0\XmlToPox.pdb

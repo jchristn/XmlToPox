@@ -2,7 +2,6 @@ C:\code\Misc\XmlToPox\XmlToPox\bin\Release\net5.0\XmlToPox.deps.json
 C:\code\Misc\XmlToPox\XmlToPox\bin\Release\net5.0\XmlToPox.dll
 C:\code\Misc\XmlToPox\XmlToPox\bin\Release\net5.0\ref\XmlToPox.dll
 C:\code\Misc\XmlToPox\XmlToPox\bin\Release\net5.0\XmlToPox.pdb
-C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.csprojAssemblyReference.cache
 C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.GeneratedMSBuildEditorConfig.editorconfig
 C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.AssemblyInfoInputs.cache
 C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.csproj.CoreCompileInp
 C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.dll
 C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\ref\XmlToPox.dll
 C:\code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.pdb
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Release\net5.0\XmlToPox.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\netcoreapp3.1\XmlToPox.deps.json
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\netcoreapp3.1\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\bin\Debug\netcoreapp3.1\XmlToPox.pdb
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\netcoreapp3.1\XmlToPox.csproj.AssemblyReference.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\netcoreapp3.1\XmlToPox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\netcoreapp3.1\XmlToPox.AssemblyInfoInputs.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\netcoreapp3.1\XmlToPox.AssemblyInfo.cs
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\netcoreapp3.1\XmlToPox.csproj.CoreCompileInputs.cache
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\netcoreapp3.1\XmlToPox.dll
+C:\Code\Misc\XmlToPox\XmlToPox\obj\Debug\netcoreapp3.1\XmlToPox.pdb
