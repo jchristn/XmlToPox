@@ -9,11 +9,11 @@ Convert XML to Plain Old XML and Query using XPath
 
 ## Help or feedback
 
-First things first - do you need help or have feedback?  Contact me at joel dot christner at gmail or file an issue here!
+First things first - do you need help or have feedback?  File an issue here!
 
-## New in v1.0.2
+## New in v1.0.3
 
-- Retarget to .NET Core 2.0 and .NET Framework 4.5.2
+- Retarget and bugfixes
 
 ## Simple example
 ```csharp
