@@ -1,5 +1,4 @@
 using System.Text.RegularExpressions;
-using System.Xml;
 using Xunit;
 using XmlToPox;
 
@@ -81,15 +80,15 @@ namespace Test
         }
 
         [Fact]
-        public void Convert_MalformedXml_ThrowsXmlException()
+        public void Convert_MalformedXml_ReturnsNull()
         {
-            Assert.Throws<XmlException>(() => XmlTools.Convert("<a><b></a>"));
+            Assert.Null(XmlTools.Convert("<a><b></a>"));
         }
 
         [Fact]
-        public void Convert_NonXmlText_ThrowsXmlException()
+        public void Convert_NonXmlText_ReturnsNull()
         {
-            Assert.Throws<XmlException>(() => XmlTools.Convert("just some text"));
+            Assert.Null(XmlTools.Convert("just some text"));
         }
 
         #endregion

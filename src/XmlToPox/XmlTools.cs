@@ -25,7 +25,14 @@ namespace XmlToPox
         /// <returns>A plain old XML string.</returns>
         public static string Convert(string xml)
         {
-            return SanitizeXml(xml);
+            try
+            {
+                return SanitizeXml(xml);
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         /// <summary>
