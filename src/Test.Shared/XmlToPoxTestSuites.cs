@@ -185,6 +185,33 @@ namespace Test.Shared
                     Expect.Equal("<a><b>hello</b></a>", Collapse(result));
                 }),
 
+                Case(suite, "drops-declaration-prolog", "Convert drops the XML declaration and keeps the root", () =>
+                {
+                    string result = XmlTools.Convert("<?xml version=\"1.0\" encoding=\"utf-8\"?><a><b>hi</b></a>");
+                    Expect.Equal("<a><b>hi</b></a>", Collapse(result));
+                    Expect.DoesNotContain("<?xml", result);
+                }),
+
+                Case(suite, "removes-comments", "Convert removes XML comments", () =>
+                {
+                    string result = XmlTools.Convert("<a><!-- note --><b>v</b></a>");
+                    Expect.Equal("<a><b>v</b></a>", Collapse(result));
+                    Expect.DoesNotContain("note", result);
+                }),
+
+                Case(suite, "strips-attribute-on-leaf", "Convert removes an attribute from a leaf element", () =>
+                {
+                    string result = XmlTools.Convert("<a><b id=\"7\">v</b></a>");
+                    Expect.Equal("<a><b>v</b></a>", Collapse(result));
+                    Expect.DoesNotContain("id", result);
+                }),
+
+                Case(suite, "preserves-internal-whitespace", "Convert preserves whitespace inside text content", () =>
+                {
+                    string result = XmlTools.Convert("<a><b>hello world</b></a>");
+                    Expect.Contains("hello world", result);
+                }),
+
                 Case(suite, "returns-nonnull-for-valid", "Convert returns a non-null result for valid XML", () =>
                 {
                     Expect.NotNull(XmlTools.Convert("<a>1</a>"));
@@ -257,6 +284,16 @@ namespace Test.Shared
                 Case(suite, "unescaped-ampersand", "Convert of an unescaped ampersand returns null", () =>
                 {
                     Expect.Null(XmlTools.Convert("<a>a & b</a>"));
+                }),
+
+                Case(suite, "comment-only", "Convert of a comment with no root element returns null", () =>
+                {
+                    Expect.Null(XmlTools.Convert("<!-- just a comment -->"));
+                }),
+
+                Case(suite, "text-before-root", "Convert of text preceding the root element returns null", () =>
+                {
+                    Expect.Null(XmlTools.Convert("leading text<a>1</a>"));
                 })
             };
 
@@ -315,6 +352,19 @@ namespace Test.Shared
                 Case(suite, "numeric-leaf", "QueryXml returns a numeric leaf value", () =>
                 {
                     Expect.Equal("42", XmlTools.QueryXml("<a><n>42</n></a>", "/a/n"));
+                }),
+
+                Case(suite, "strips-default-namespace", "QueryXml resolves a path after stripping a default namespace", () =>
+                {
+                    string xml = "<catalog xmlns=\"http://example.com\">" +
+                                 "<item><number>XYZ789</number></item></catalog>";
+                    Expect.Equal("XYZ789", XmlTools.QueryXml(xml, "/catalog/item[1]/number"));
+                }),
+
+                Case(suite, "parent-returns-descendant-leaf", "QueryXml on a parent node returns a descendant leaf value", () =>
+                {
+                    string xml = "<root><wrapper><leaf>wrapped</leaf></wrapper></root>";
+                    Expect.Equal("wrapped", XmlTools.QueryXml(xml, "/root/wrapper"));
                 })
             };
 
@@ -379,6 +429,12 @@ namespace Test.Shared
                 Case(suite, "out-of-range-index", "QueryXml of an out-of-range index returns null", () =>
                 {
                     Expect.Null(XmlTools.QueryXml(_Catalog, "/catalog/item[99]/price"));
+                }),
+
+                Case(suite, "attribute-path", "QueryXml of an attribute path returns null once attributes are stripped", () =>
+                {
+                    string xml = "<catalog><item id=\"5\"><number>QWZ5671</number></item></catalog>";
+                    Expect.Null(XmlTools.QueryXml(xml, "/catalog/item[1]/@id"));
                 })
             };
 
