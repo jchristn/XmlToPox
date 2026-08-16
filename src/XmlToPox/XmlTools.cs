@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
@@ -117,13 +116,11 @@ namespace XmlToPox
 
             if (String.IsNullOrEmpty(ret)) return null;
 
-            // remove all namespaces
             XElement xe = XmlRemoveNamespace(XElement.Parse(xml));
 
-            // remove null fields from string
-            Regex rgx = new Regex("\\n*\\s*<([\\w_]+)></([\\w_]+)>\\n*");
+            if (IsEmptyElement(xe)) return string.Empty;
 
-            return rgx.Replace(xe.ToString(), "");
+            return xe.ToString();
         }
 
         private static XElement XmlRemoveNamespace(XElement xml)
@@ -136,17 +133,27 @@ namespace XmlToPox
                     XElement xe = new XElement(xml.Name.LocalName);
                     xe.Value = xml.Value;
 
-                    foreach (XAttribute attribute in xml.Attributes())
-                        xe.Add(attribute);
-
                     return xe;
                 }
-                return new XElement(xml.Name.LocalName, xml.Elements().Select(el => XmlRemoveNamespace(el)));
+
+                XElement ret = new XElement(xml.Name.LocalName);
+
+                foreach (XElement child in xml.Elements().Select(el => XmlRemoveNamespace(el)))
+                {
+                    if (!IsEmptyElement(child)) ret.Add(child);
+                }
+
+                return ret;
             }
             catch (Exception)
             {
                 return null;
             }
+        }
+
+        private static bool IsEmptyElement(XElement xml)
+        {
+            return xml != null && !xml.HasElements && String.IsNullOrEmpty(xml.Value);
         }
 
         private static string QueryXmlProcessChildren(XPathNodeIterator xpni)

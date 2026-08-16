@@ -117,6 +117,18 @@ namespace Test.Shared
                     Expect.Equal("<a><c>keep</c></a>", Collapse(result));
                 }),
 
+                Case(suite, "removes-empty-hyphenated-elements", "Convert removes empty elements with hyphenated names", () =>
+                {
+                    string result = XmlTools.Convert("<a><empty-node></empty-node><c>keep</c></a>");
+                    Expect.Equal("<a><c>keep</c></a>", Collapse(result));
+                }),
+
+                Case(suite, "removes-nested-empty-elements", "Convert removes nested empty elements", () =>
+                {
+                    string result = XmlTools.Convert("<a><b><c></c></b><d>keep</d></a>");
+                    Expect.Equal("<a><d>keep</d></a>", Collapse(result));
+                }),
+
                 Case(suite, "removes-attributes", "Convert removes attributes", () =>
                 {
                     string result = XmlTools.Convert("<a id=\"1\"><b attr=\"2\">v</b></a>");
@@ -165,6 +177,12 @@ namespace Test.Shared
                 {
                     string result = XmlTools.Convert("<root_node><child_1>v</child_1></root_node>");
                     Expect.Equal("<root_node><child_1>v</child_1></root_node>", Collapse(result));
+                }),
+
+                Case(suite, "hyphenated-element-names", "Convert preserves element names containing hyphens", () =>
+                {
+                    string result = XmlTools.Convert("<root-node><child-node>v</child-node></root-node>");
+                    Expect.Equal("<root-node><child-node>v</child-node></root-node>", Collapse(result));
                 }),
 
                 Case(suite, "escapes-ampersand", "Convert re-escapes an ampersand entity", () =>
@@ -389,6 +407,11 @@ namespace Test.Shared
                 Case(suite, "empty-xml", "QueryXml(\"\", path) returns null", () =>
                 {
                     Expect.Null(XmlTools.QueryXml(string.Empty, "/catalog"));
+                }),
+
+                Case(suite, "whitespace-only-xml", "QueryXml with whitespace-only XML returns null", () =>
+                {
+                    Expect.Null(XmlTools.QueryXml("   ", "/catalog"));
                 }),
 
                 Case(suite, "null-path", "QueryXml(xml, null) returns null", () =>

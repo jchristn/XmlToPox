@@ -11,9 +11,10 @@ Convert XML to Plain Old XML and Query using XPath
 
 First things first - do you need help or have feedback?  File an issue here!
 
-## New in v1.0.3
+## New in v1.0.4
 
-- Retarget and bugfixes
+- Update test dependencies
+- Improve empty element cleanup for valid XML names and nested empty elements
 
 ## Simple example
 ```csharp

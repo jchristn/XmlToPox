@@ -2,9 +2,10 @@
 
 ## Current Version
 
-v1.0.3
+v1.0.4
 
-- Bugfixes and retargeting
+- Update test dependencies
+- Improve empty element cleanup for valid XML names and nested empty elements
 
 ## Previous Versions
 

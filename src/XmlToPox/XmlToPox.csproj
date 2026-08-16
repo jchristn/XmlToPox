@@ -5,14 +5,14 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<Authors>Joel Christner</Authors>
 		<Description>Convert XML to plain old XML (POX) and query it using XPath.</Description>
 		<Copyright>(c)2023 Joel Christner</Copyright>
 		<PackageProjectUrl>https://github.com/jchristn/xmltopox</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/jchristn/xmltopox</RepositoryUrl>
 		<RepositoryType>Github</RepositoryType>
-		<PackageReleaseNotes>Retarget</PackageReleaseNotes>
+		<PackageReleaseNotes>Update test dependencies and improve empty element cleanup</PackageReleaseNotes>
 		<PackageTags>xml convert conversion plain xpath query</PackageTags>
 		<ApplicationIcon>logo.ico</ApplicationIcon>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
