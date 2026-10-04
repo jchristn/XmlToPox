@@ -5,19 +5,17 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-		<Version>1.0.4</Version>
+		<Version>1.1.0</Version>
 		<Authors>Joel Christner</Authors>
 		<Description>Convert XML to plain old XML (POX) and query it using XPath.</Description>
 		<Copyright>(c)2023 Joel Christner</Copyright>
 		<PackageProjectUrl>https://github.com/jchristn/xmltopox</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/jchristn/xmltopox</RepositoryUrl>
 		<RepositoryType>Github</RepositoryType>
-		<PackageReleaseNotes>Update test dependencies and improve empty element cleanup</PackageReleaseNotes>
+		<PackageReleaseNotes>Remove strong-name signing; update test dependencies</PackageReleaseNotes>
 		<PackageTags>xml convert conversion plain xpath query</PackageTags>
 		<ApplicationIcon>logo.ico</ApplicationIcon>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
-		<SignAssembly>True</SignAssembly>
-		<AssemblyOriginatorKeyFile>..\..\XmlToPox.snk</AssemblyOriginatorKeyFile>
 		<PackageIcon>logo.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
